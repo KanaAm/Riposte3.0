@@ -1,0 +1,267 @@
+{
+  "UserService": [
+    {
+      "Action": "Click",
+      "Target": "รับฝากสิ่งของ",
+      "Value": "",
+      "IsScreenshot": false,
+      "ChildSteps": []
+    },
+    {
+      "Action": "Click",
+      "Target": "AlternativeCaptureCommand",
+      "Value": "อ่านบัตรประชาชน",
+      "IsScreenshot": false,
+      "ChildSteps": []
+    },
+    {
+      "Action": "Type",
+      "Target": "PhoneNumber",
+      "Value": "0151254789",
+      "IsScreenshot": false,
+      "ChildSteps": []
+    },
+    {
+      "Action": "Click",
+      "Target": "LocalCommand_Submit",
+      "Value": "ถัดไป",
+      "IsScreenshot": false,
+      "ChildSteps": []
+    }
+  ],
+  "ซองจดหมาย": [
+    {
+      "Action": "ซองจดหมาย",
+      "Target": "Sub-Process",
+      "Value": "ซองจดหมาย",
+      "IsScreenshot": false,
+      "ChildSteps": [
+        {
+          "Action": "UserService",
+          "Target": "Sub-Process",
+          "Value": "UserService",
+          "IsScreenshot": false,
+          "ChildSteps": [
+            {
+              "Action": "Click",
+              "Target": "รับฝากสิ่งของ",
+              "Value": "",
+              "IsScreenshot": false,
+              "ChildSteps": []
+            },
+            {
+              "Action": "Click",
+              "Target": "AlternativeCaptureCommand",
+              "Value": "อ่านบัตรประชาชน",
+              "IsScreenshot": false,
+              "ChildSteps": []
+            },
+            {
+              "Action": "Type",
+              "Target": "PhoneNumber",
+              "Value": "0151254789",
+              "IsScreenshot": false,
+              "ChildSteps": []
+            },
+            {
+              "Action": "Click",
+              "Target": "LocalCommand_Submit",
+              "Value": "ถัดไป",
+              "IsScreenshot": false,
+              "ChildSteps": []
+            }
+          ]
+        },
+        {
+          "Action": "Click",
+          "Target": "ซองจดหมาย",
+          "Value": "",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "ของเหลว (LQ)",
+          "Value": "",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "แบต (LI)",
+          "Value": "",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "LocalCommand_Submit",
+          "Value": "ถัดไป",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Type",
+          "Target": "EG_WEIGHT_INPUT_ELEMENT",
+          "Value": "15",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "LocalCommand_Submit",
+          "Value": "ถัดไป",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Type",
+          "Target": "PostCodeDestination",
+          "Value": "10520",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "ShippingService_2596",
+          "Value": "",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "RegisteredToggleIcon",
+          "Value": "",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "LocalCommand_Submit",
+          "Value": "ถัดไป",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "8.00",
+          "Value": "",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "LocalCommand_Submit",
+          "Value": "ถัดไป",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "LocalCommand_Submit",
+          "Value": "ถัดไป",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Type",
+          "Target": "SearchField1",
+          "Value": "145/513",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "LocalCommand_Submit",
+          "Value": "ถัดไป",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "เคหะร่มเกล้า 64\r\n145/513 คลองสองต้นนุ่น ลาดกระบัง\r\nกรุงเทพมหานคร\r\n10520",
+          "Value": "",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Type",
+          "Target": "CustomerFirstName",
+          "Value": "คณาธิป",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Type",
+          "Target": "CustomerLastName",
+          "Value": "อมรนาค",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Type",
+          "Target": "PhoneNumber",
+          "Value": "0955374001",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "LocalCommand_Submit",
+          "Value": "ถัดไป",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "LocalCommand_Submit",
+          "Value": "ถัดไป",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "LocalCommand_Submit",
+          "Value": "ถัดไป",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "No",
+          "Value": "ไม่",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "รับเงิน",
+          "Value": "รับเงิน",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "เงินสด",
+          "Value": "",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Type",
+          "Target": "CashPayInCurrencyInput",
+          "Value": "21.00",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
+          "Target": "LocalCommand_Submit",
+          "Value": "ถัดไป",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        }
+      ]
+    }
+  ]
+}
