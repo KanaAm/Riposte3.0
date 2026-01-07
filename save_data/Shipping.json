@@ -123,6 +123,13 @@
         },
         {
           "Action": "Click",
+          "Target": "LocalCommand_Submit",
+          "Value": "ถัดไป",
+          "IsScreenshot": false,
+          "ChildSteps": []
+        },
+        {
+          "Action": "Click",
           "Target": "ShippingService_2596",
           "Value": "",
           "IsScreenshot": false,
